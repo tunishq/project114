@@ -26,7 +26,7 @@ function modelLoaded()
 function draw()
 {
 image(video, 0, 0, 300, 300);
-image(mustache, noseX-10, noseY-10, 30, 30);
+image(mustache, noseX, noseY-15, 50, 20);
 }
 function take_snapshot()
 {
